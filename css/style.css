@@ -1,0 +1,15 @@
+/* ---- Navbar ---- */
+#collapsibleNavbar .nav .nav-item a {
+    color: #ffffff;
+}
+
+#collapsibleNavbar ul {
+    margin-right: 5%;
+}
+
+#collapsibleNavbar .navbar-nav .nav-link {
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+
