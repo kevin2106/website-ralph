@@ -12,8 +12,11 @@
 </head>
 <body>
     <?php include("html/navbar.html"); ?>
-    
+    <button onClick="projectsType('FT')">Portfolio</button>
+    <button onClick="projectsType('PF')">Freetime</button>
+    <span id="data"></span>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"> </script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
