@@ -6,25 +6,29 @@ $result = mysqli_query($conn, $sql);
 
 
 if($value == 'PF') {
+        echo "<div class='row'>";
+
 while ($row = mysqli_fetch_array($result)) {
-    echo "<div class='row'>";
-        echo "<div class='col'>";
+
+        echo "<div class='col-md-4'>";
+        echo "<a href='#'>";
         echo "<img href='#' src='images/".$row['name']. ".png'/>";
-        echo "<img href='#' src='images/".$row['name']. ".png'/>";
+        echo "</a>";
         echo "</div>";
+} 
     echo "</div>";
-} } else {
+} else {
             echo "<div class='row'>";
    while ($row = mysqli_fetch_array($result)) {
 
-        echo "<div class='col'>";
+        echo "<div class='col-md-4'>";
+        echo "<a href='#'>";
         echo "<img href='#' src='images/".$row['name']. ".png'/>";
+        echo "</a>";
         echo "</div>";
-        echo "<div class='col'>";
-        echo "<img href='#' src='images/".$row['name']. ".png'/>";
-        echo "</div>";
-    echo "</div>";
+        
 } 
+        echo "</div>";
 }
 
 

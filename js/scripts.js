@@ -4,6 +4,7 @@ function projectsType(type) {
     getProjects(selectedType);
 } 
 
+
 function loadFunction(){
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function () {
@@ -30,3 +31,14 @@ function getProjects(selectedType) {
         xmlHttp.send();
     }
 }
+
+$(document).ready(function () {
+    $('#data').slick({
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+});
+

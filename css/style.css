@@ -20,3 +20,41 @@
     margin-right: 3em;
 }
 
+/* ---- Projects ---- */
+#projects .contents {
+    height: 100%;
+}
+
+#projects #data .row img {
+width: 100%;
+}
+
+#projects  .col-md-4 {
+  padding: 0;
+  height: 50%;
+  overflow: hidden;
+}
+
+/* ---- About ---- */
+#about {
+    background-color: #252525;
+    color: #FFFFFF;
+}
+#about .about-title h1 {
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 2.5em;
+}
+
+#about h2 {
+    font-size: 2em; 
+}
+
+#about p{
+    max-width: 60%;
+}
+
+
+
