@@ -9,7 +9,7 @@ if($value == 'PF') {
         echo "<div class='row'>";
 
 while ($row = mysqli_fetch_array($result)) {
-
+        echo $result;
         echo "<div class='col-md-4'>";
         echo "<a href='#'>";
         echo "<img href='#' src='images/".$row['name']. ".png'/>";
@@ -26,7 +26,6 @@ while ($row = mysqli_fetch_array($result)) {
         echo "<img href='#' src='images/".$row['name']. ".png'/>";
         echo "</a>";
         echo "</div>";
-        
 } 
         echo "</div>";
 }
